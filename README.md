@@ -67,16 +67,5 @@ Dynamic course builders
 Documentation sites
 
 Interactive CLI tools
+<img width="10752" height="8064" alt="roadmap" src="https://github.com/user-attachments/assets/27751cd3-1267-4a19-bb58-6a76ae366125" />
 
-Example:
-
-import { salesforceRoadmap } from './topics';
-
-salesforceRoadmap.forEach(topic => {
-  console.log(`Topic: ${topic.title}`);
-  topic.subtopics?.forEach(sub => console.log(` - ${sub.title}: ${sub.description}`));
-});
-
-Source & References
-
-The topics are curated based on
